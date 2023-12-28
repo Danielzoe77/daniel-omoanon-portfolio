@@ -1,0 +1,77 @@
+
+
+body{
+    font-family: sans-serif;
+}
+.btn-primary{
+    position:relative;
+    transition: transform 0.3s ease;
+}
+.btn-primary:hover{
+    transform:translateY(-3px);
+}
+
+/* card service */
+.card-service{
+    position:relative;
+    transition:transform 0.3s ease; 
+}
+.card-service:hover{
+    transform: translate(-5px);
+}
+.grayscale{
+    filter: grascale(100%);
+    transition: filter 0.3s ease;
+}
+
+.grayscale:hover{
+    filter:none
+}
+.owl-nav span{
+display: none;
+}
+svg {
+    width: 200px;
+    height: 200px;
+}
+
+
+.owl-nav {
+    margin-top:20px;
+}
+
+.owl-carousel .owl-item img{
+    width : 50px !important;
+}
+
+.owl-carousel .owl-dots{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content:center ;
+}
+
+.owl-carousel .owl-dots{
+    background:#323232 !important;
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.owl-carousel .owl-dots.active{
+background-color: #079211 !important;
+}
+
+#myimage{
+width:90%;
+margin: 10px;
+
+}
+
+
+
+
