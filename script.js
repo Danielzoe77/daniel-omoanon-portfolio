@@ -14,18 +14,18 @@ document.addEventListener("DOMContentLoaded", function () {
   
   window.addEventListener("scroll", () => {
     const imgElement = document.getElementById("myImage");
-    if (window.scrollY > 10) {
+    if (window.scrollY > 2) {
       navbar.classList.remove("bg-transparent", "text-[#ffffff]");
-      navbar.classList.add("bg-white", "text-[#0000D1]");
+      navbar.classList.add("bg-white", "text-[#172A46]");
        grown.classList.remove("text-[#ffffff]");
-       grown.classList.add("text-[#0000D1]");
+       grown.classList.add("text-[#172A46]");
      
       imgElement.src = "./assets/Insure/INsure Logo.png";
     } else {
-      navbar.classList.remove("bg-white", "text-[#0000D1]");
+      navbar.classList.remove("bg-white", "text-[#172A46]");
       navbar.classList.add("bg-transparent", "text-[#ffffff]");
        grown.classList.add("text-[#ffffff]");
-       grown.classList.remove("text-[#0000D1]");
+       grown.classList.remove("text-[#172A46]");
       imgElement.src = "./assets/Insure/2-removebg-preview.png";
     }
   });

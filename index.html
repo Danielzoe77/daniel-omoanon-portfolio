@@ -23,14 +23,13 @@
   </head>
   <body class="bg-white">
     <nav
-      class="fixed w-full  bg-white z-10 transition duration-500 ease-in-out py-1.5"
+      class="fixed w-full bg-white z-10 transition duration-500 ease-in-out py-1.5"
       id="navbar"
     >
       <div
         class="flex flex-wrap items-center justify-between mx-auto p-0 w-[90%]"
-       
       >
-        <span  id="grow" class="text-2xl font-bold"
+        <span id="grow" class="text-2xl font-bold"
           >Dan<span class="">iel.</span></span
         >
 
@@ -60,17 +59,17 @@
           </svg>
         </button>
         <div
-          class="hidden w-full md:block md:w-auto lg:bg-transparent text-lg"
+          class="hidden w-full md:block md:w-auto bg-white lg:bg-transparent text-lg"
           id="navbar-dropdown"
         >
           <div>
             <ul
-              class="flex flex-col lg:items-center font-medium p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:mr-0 lg:mr-22"
+              class="flex flex-col lg:items-center font-medium p-0 m- md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:mr-0 lg:mr-22"
             >
               <li>
                 <a
                   href="./index.html"
-                  class="link block py-3 pl-3 pr-4 rounded hover:bg-blue text-base md:hover:bg-transparent md:border-0 md:hover:text-white  sm:hover:text-white md:p-0 md:dark:hover:text-blue dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  class="link block py-3 pl-3 pr-4 rounded hover:bg-blue text-base md:hover:bg-transparent md:border-0 md:hover:text-white sm:hover:text-white md:p-0 md:dark:hover:text-blue dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   aria-current="page"
                   >Home</a
                 >
@@ -143,30 +142,29 @@
         </div>
       </div>
     </nav>
-    <main class="text-[#583ffc]">
+    <main class="text-[#ffffff]">
       <section
-        class="lg:object-cover lg:object-center bg-cover bg-center  lg:h-[80vh] h-[70vh] w-[100%] bg-[#583ffc] flex flex-col mb-12 bg-blend-overlay p-6"
+        class="lg:object-cover lg:object-center bg-cover bg-center lg:h-[100vh] h-[100vh] w-[100%] bg-[#172A46] flex flex-col mb-8 bg-blend-overlay p-6"
         id="hero-section"
       >
-        <div class="my-auto lg:ml-[50px] text-white">
-          <h1 class="lg:text-[2rem] text-[1.5rem] font-[500]">
+        <div class="my-[100px] lg:ml-[50px] text-white flex flex-wrap">
+          <div class="lg:w-[50%] w-[85%] my-auto flex-row">
+          <h1 class="lg:text-[2rem] lg:text text-[1.5rem] font-extrabold">
             Hello, My Name is Daniel Omoanon
           </h1>
           <p
-            class="lg:text-[1rem] text-[0.5rem] mb-4 lg:w-[50%] w-[70%]"
+            class="lg:text-[1rem] text-[0.5rem] mb-4 lg:w-[80%] w-[70%]"
             id="description"
           >
             I am a Backend Developer I handle the server- side logic which
-            involves processing data and managing databases Daniel I am a
-            Software Engineer and a UI/UX Designer
+            involves processing data and managing databases and i also build user friendly websites .
           </p>
 
           <div class="mt-9">
             <div class="mt-5 flex items-center">
               <a
                 href="mailto:drimbignation@gmail.com"
-      
-       class="btn-primary bg-[#171718] test-white rounded-none py-3 px-6 text-lg font-medium mr-4"
+                class="btn-primary bg-[#457B9D] test-white rounded-lg py-2 px-6 text-lg font-medium mr-3"
                 >Email Me</a
               >
               <a href="" class="flex item-center text-white font-bold text-lg">
@@ -189,12 +187,16 @@
             </div>
           </div>
         </div>
+        <div class="lg:w-1/3">
+          <img class="w-[100%] rounded-full  m-2" src="./image/hit2.png" alt="" />
+        </div>
+        </div>
       </section>
       <section class="bg-[#F0F4FF] py-6" id="skills">
         <div class="w-[90%] mx-auto">
-          <div class="my-8 p-4">
+          <div class="my-8 p-4 ">
             <h3
-              class="lg:text-right text-blue text-center lg:text-[2.5rem] text-[2rem] font-[700]"
+              class="lg:text-right text-[#172A46] text-center lg:text-[2.5rem] text-[2rem] font-[700]"
             >
               Skills
             </h3>
@@ -202,7 +204,7 @@
               class="flex lg:flex-row flex-col justify-between items-center my-8 lg:h-[60vh] h-auto"
             >
               <div
-                class="bg-white rounded-[13px] py-4 font-[700] lg:w-[31%] w-[100%] mb-4 self-baseline"
+                class="bg-white rounded-[13px] text-[#172A46] font-serif py-4 font-[800] lg:w-[31%] w-[100%] mb-4 self-baseline"
                 data-aos="zoom-out"
                 data-aos-delay="50"
                 data-aos-duration="2000"
@@ -215,7 +217,7 @@
                 <p class="text-[1.3rem] text-center p-2">Node js</p>
               </div>
               <div
-                class="bg-white rounded-[13px] py-4 font-[700] lg:w-[31%] w-[100%] mb-4 self-center"
+                class="bg-white rounded-[13px] text-[#172A46] font-serif py-4 font-[800] lg:w-[31%] w-[100%] mb-4 self-center"
                 data-aos="zoom-out-up"
                 data-aos-delay="50"
                 data-aos-duration="2000"
@@ -228,7 +230,7 @@
                 <p class="text-[1.3rem] text-center p-2">CSS</p>
               </div>
               <div
-                class="bg-white rounded-[13px] py-4 font-[700] lg:w-[31%] w-[100%] mb-4 self-center"
+                class="bg-white rounded-[13px] text-[#172A46] font-serif py-4 font-[800]  lg:w-[31%] w-[100%] mb-4 self-center"
                 data-aos="zoom-out-down"
                 data-aos-delay="50"
                 data-aos-duration="2000"
@@ -236,16 +238,16 @@
                 <img
                   src="./image/bootstrap.svg"
                   alt=""
-                  class=" object-center h-[250px] align-middle"
+                  class="object-center h-[250px] align-middle"
                 />
-                <p class="text-[1.3rem] text-center p-2">Github</p>
+                <p class="text-[1.3rem] text-center p-2">Bootstrap</p>
               </div>
             </div>
             <div
               class="flex lg:flex-row flex-col justify-between items-center my-8 lg:h-[60vh] h-auto"
             >
               <div
-                class="bg-white rounded-[13px] py-4 font-[700] lg:w-[31%] w-[100%] mb-4 self-baseline"
+                class="bg-white rounded-[13px] text-[#172A46] font-serif py-4 font-[800]  lg:w-[31%] w-[100%] mb-4 self-baseline"
                 data-aos="zoom-out"
                 data-aos-delay="50"
                 data-aos-duration="2000"
@@ -255,10 +257,10 @@
                   alt=""
                   class="object-cover object-center h-[250px]"
                 />
-                <p class="text-[1.3rem] text-center p-2">Customer Support</p>
+                <p class="text-[1.3rem] text-center p-2">Figma</p>
               </div>
               <div
-                class="bg-white rounded-[13px] py-4 font-[700] lg:w-[31%] w-[100%] mb-4 self-center"
+                class="bg-white rounded-[13px] text-[#172A46] font-serif py-4 font-[800] lg:w-[31%] w-[100%] mb-4 self-center"
                 data-aos="zoom-out-up"
                 data-aos-delay="50"
                 data-aos-duration="2000"
@@ -268,10 +270,10 @@
                   alt=""
                   class="object-cover object-center h-[250px]"
                 />
-                <p class="text-[1.3rem] text-center p-2">Data Security</p>
+                <p class="text-[1.3rem] text-center p-2">CSS</p>
               </div>
               <div
-                class="bg-white rounded-[13px] py-4 font-[700] lg:w-[31%] w-[100%] mb-4 self-end"
+                class="bg-white rounded-[13px] text-[#172A46] font-serif py-4 font-[800] lg:w-[31%] w-[100%] mb-4 self-end"
                 data-aos="zoom-out-down"
                 data-aos-delay="50"
                 data-aos-duration="2000"
@@ -281,20 +283,20 @@
                   alt=""
                   class="object-cover object-center h-[250px]"
                 />
-                <p class="text-[1.3rem] text-center p-2">Scalability</p>
+                <p class="text-[1.3rem] text-center p-2">Github</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="work mt-20 py-28 bg-dark" id="work">
+      <section class="work mt-20 py-28 bg-[#172A46]" id="work">
         <div class="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="block md:flex items-center justify-between">
             <div>
               <div class="flex items-center">
-                <hr class="w-14 border-t-2 border-blue mr-4" />
-                <h6 class="text-blue font-bold text-xl mr-4">Recent work</h6>
+                <hr class="w-14 border-t-2 border-[#457B9D]  mr-4" />
+                <h6 class="text-white font-bold text-xl mr-4">Recent work</h6>
               </div>
               <h2
                 class="text-white text-3xl lg:text-5xl font-bold mb-2 md:w-3/4 mt-4"
@@ -305,7 +307,7 @@
             <div class="mt-6 md:mt-0">
               <a
                 href=""
-                class="text-white border border-blue px-3 py-2 rounded-none text-base font-medium hover:bg-blue focus:bg-blue mt-4"
+                class="text-white border border-[#457B9D]  px-3 py-2 rounded-none text-base font-medium hover:bg-[#457B9D]  focus:bg-blue mt-4"
                 >View All Project</a
               >
             </div>
@@ -326,7 +328,7 @@
               <a
                 href="https://innoconnect-one.vercel.app/"
                 target="_blank"
-                class="flex items-center text-blue font-medium text-xl mt-2"
+                class="flex items-center text-[#ffffff]  font-medium text-xl mt-2"
               >
                 <span class="mr-2 pt-6 hover:underline">See Project</span>
                 <svg
@@ -355,7 +357,7 @@
               <a
                 href="https://live-user-sage.vercel.app"
                 target="_blank"
-                class="flex items-center text-blue font-medium text-xl mt-2"
+                class="flex items-center text-[#457B9D]  font-medium text-xl mt-2"
               >
                 <span class="mr-2 pt-6 hover:underline">See Project</span>
                 <svg
@@ -390,7 +392,7 @@
               <a
                 href="https://innoconnect-one.vercel.app/"
                 target="_blank"
-                class="flex items-center text-blue font-medium text-xl mt-2"
+                class="flex items-center text-[#457B9D]  font-medium text-xl mt-2"
               >
                 <span class="mr-2 pt-6 hover:underline">See Project</span>
                 <svg
@@ -419,7 +421,7 @@
               <a
                 href="https://playful-fox-5528f5.netlify.app/"
                 target="_blank"
-                class="flex items-center text-blue font-medium text-xl mt-2"
+                class="flex items-center text-[#457B9D]  font-medium text-xl mt-2"
               >
                 <span class="mr-2 pt-6 hover:underline">See Project</span>
                 <svg
@@ -450,7 +452,7 @@
               <a
                 href="https://brontek-hotel-w76s.vercel.app"
                 target="_blank"
-                class="flex items-center text-blue font-medium text-xl mt-2"
+                class="flex items-center text-[#457B9D] font-medium text-xl mt-2"
               >
                 <span class="mr-2 pt-6 hover:underline">See Project</span>
                 <svg
@@ -479,7 +481,7 @@
               <a
                 href="https://live-user-sage.vercel.app"
                 target="_blank"
-                class="flex items-center text-blue font-medium text-xl mt-2"
+                class="flex items-center text-[#457B9D] font-medium text-xl mt-2"
               >
                 <span class="mr-2 pt-6 hover:underline">See Project</span>
                 <svg
@@ -510,8 +512,8 @@ testimonial -->
           <h1 class="text-[#457B9D] text-[40px] font-semibold">
             A few <span class="text-[#457B9D]">Testimonials</span>
           </h1>
-          <p class="text-[#222C2C] font-semibold">Find out what my clients are saying about me..
-            
+          <p class="text-[#222C2C] font-semibold">
+            Find out what my clients are saying about me..
           </p>
         </div>
 
@@ -522,7 +524,7 @@ testimonial -->
         >
           <!-- Carousel wrapper -->
           <div
-            class="relative h-[800px] lg:h-[480px] overflow-hidden rounded-lg"
+            class="relative h-[800px] lg:h-[400px] overflow-hidden rounded-lg"
           >
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
@@ -531,17 +533,19 @@ testimonial -->
               >
                 <img src="image/hit2.png" alt="Testimonials" />
                 <div>
-                  <i class="fa-solid fa-quote-left text-[32px]"></i>
+                  <i class="fa-solid  text-dark fa-quote-left text-[32px]"></i>
                   <p class="text-[#222C2C] text-[18px] font-semibold">
-                     Daniel very helpful and fast to respond to my inquiry to help with Wordpress website issues.  His knowledge was comprehensive. 
-                     Even better, his advice helped me enough to solve the problems and he did not accept any payment for this, very straight up guy! Thank you Daniel.
+                    Daniel was very helpful and fast to respond to my inquiry to
+                    help with website issues. His knowledge was
+                    comprehensive. 
+                    <!-- Even better, his advice helped me enough to
+                    solve the problems and he did not accept any payment for
+                    this, very straight up guy! Thank you Daniel. -->
                   </p>
                   <i
-                    class="fa-solid fa-quote-right flex justify-end text-[32px]"
+                    class="fa-solid  text-dark fa-quote-right flex justify-end text-[32px]"
                   ></i>
-                  <p class="text-[#222C2C] text-[14px] font-semibold">
-                   Ehis D
-                  </p>
+                  <p class="text-[#222C2C] text-[14px] font-semibold">Ehis D</p>
                   <p class="text-[#222C2C] text-[14px]"></p>
                   <p class="text-[#222C2C] text-[18px]">DesignHub Inc.</p>
                 </div>
@@ -552,17 +556,18 @@ testimonial -->
               <div
                 class="m-auto flex xmd:flex-col items-center gap-20 bg-[#F6F9FA] p-10"
               >
-                <img src="image/eliz2.jpeg" alt="Testimonials" />
+                <img src="image/eliz2.png" alt="Testimonials" />
                 <div>
-                  <i class="fa-solid fa-quote-left text-[32px]"></i>
+                  <i class="fa-solid fa-quote-left text-[32px] text-dark rounded-full w-[50%]"></i>
                   <p class="text-[#222C2C] text-[18px] font-semibold">
-                    Very helpful when building my website, I now have my ecommerce store built from scratch
+                    He was very helpful when building my website, I now have my
+                    ecommerce store built from scratch
                   </p>
                   <i
-                    class="fa-solid fa-quote-right flex justify-end text-[32px]"
+                    class="fa-solid  text-dark fa-quote-right flex justify-end text-[32px]"
                   ></i>
                   <p class="text-[#222C2C] text-[14px] font-semibold">
-                    Anas Ahmad
+                    Elizabet Okwong
                   </p>
                   <p class="text-[#222C2C] text-[14px]"></p>
                   <p class="text-[#222C2C] text-[18px]">DesignHub Inc.</p>
@@ -572,22 +577,24 @@ testimonial -->
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <div
-                class="m-auto flex xmd:flex-col items-center gap-20 bg-[#F6F9FA] p-10"
+                class="m-auto flex xmd:flex-col items-center gap-20 bg-[#F6F9FA] p-7"
               >
                 <img src="image/patie2.jpg" alt="Testimonials" />
                 <div>
-                  <i class="fa-solid fa-quote-left text-[32px]"></i>
+                  <i class="fa-solid   text-dark fa-quote-left text-[32px]"></i>
                   <p class="text-[#222C2C] text-[18px] font-semibold">
-                    Daniel is awesome, delivers exactly what you want and is a great guy as well, thanks for all your hard work on my website
+                    Daniel is awesome, delivers exactly what you want and is a
+                    great guy as well, thanks for all your hard work on my
+                    website
                   </p>
                   <i
-                    class="fa-solid fa-quote-right flex justify-end text-[32px]"
+                    class="fa-solid  text-dark fa-quote-right flex justify-end text-[32px]"
                   ></i>
                   <p class="text-[#222C2C] text-[14px] font-semibold">
-                    Anas Ahmad
+                    Patience Bassey
                   </p>
                   <p class="text-[#222C2C] text-[14px]">CEO</p>
-                  <p class="text-[#222C2C] text-[18px]">DesignHub Inc.</p>
+                  <p class="text-[#222C2C] text-[18px]"></p>
                 </div>
               </div>
             </div>
@@ -598,18 +605,20 @@ testimonial -->
               >
                 <img src="image/taofeek2.jpeg" alt="Testimonials" />
                 <div>
-                  <i class="fa-solid fa-quote-left text-[32px]"></i>
+                  <i class="fa-solid  text-dark fa-quote-left text-[32px]"></i>
                   <p class="text-[#222C2C] text-[18px] font-semibold">
-                    Fantastic service and great guy. We recommend to anyone who needs a website or web services. We'll be using for any further web based services we require!
+                    Fantastic service and great guy. We recommend to anyone who
+                    needs a website or web services. We'll be using for any
+                    further web based services we require!
                   </p>
                   <i
-                    class="fa-solid fa-quote-right flex justify-end text-[32px]"
+                    class="fa-solid  text-dark fa-quote-right flex justify-end text-[32px]"
                   ></i>
                   <p class="text-[#222C2C] text-[14px] font-semibold">
-                    Anas Ahmad
+                    Abas Taofeeq
                   </p>
                   <p class="text-[#222C2C] text-[14px]"></p>
-                  <p class="text-[#222C2C] text-[18px]">DesignHub Inc.</p>
+                  <p class="text-[#222C2C] text-[18px]">Supreme Solutions.</p>
                 </div>
               </div>
             </div>
@@ -713,19 +722,19 @@ testimonial -->
       <!-- contact me -->
       <section
         id="contact"
-        class="max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-dark  [url('image/contact-pattern.avif')] text-gray-900 rounded-lg shadow-lg"
+        class="max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-[#172A46] [url('image/contact-pattern.avif')] text-gray-900 rounded-lg shadow-lg"
       >
         <div class="flex flex-col justify-between">
           <div>
-            <h2 class="text-4xl text-blue lg:text-5xl font-bold leading-tight">
+            <h2 class="text-4xl text-[#ffffff] lg:text-5xl font-bold leading-tight">
               Contact Me
             </h2>
-            <div class="text-gray mt-8">I will love to hear from you</div>
+            <div class="text-[#ffffff] mt-8">I will love to hear from you</div>
           </div>
         </div>
-        <div class="">
+        <div class="text-[#ffffff]">
           <div>
-            <span class="uppercase text-sm text-gray font-bold"
+            <span class="uppercase text-sm text-[#ffffff] font-bold"
               >First Name</span
             >
             <input
@@ -735,7 +744,7 @@ testimonial -->
             />
           </div>
           <div>
-            <span class="uppercase text-sm text-gray font-bold">Last Name</span>
+            <span class="uppercase text-sm font-bold">Last Name</span>
             <input
               class="w-full bg-gray-200 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"
@@ -743,21 +752,21 @@ testimonial -->
             />
           </div>
           <div class="mt-8">
-            <span class="uppercase text-sm text-gray font-bold">Email</span>
+            <span class="uppercase text-sm font-bold">Email</span>
             <input
               class="w-full bg-gray-200 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"
             />
           </div>
           <div class="mt-8">
-            <span class="uppercase text-sm text-gray font-bold">Message</span>
+            <span class="uppercase text-sm font-bold">Message</span>
             <textarea
               class="w-full h-32 bg-gray-200 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
             ></textarea>
           </div>
           <div class="mt-8">
             <button
-              class="uppercase text-sm font-bold tracking-wide bg-blue text-white p-3 rounded-lg w-full focus:outline-none focus:shadow-outline hover:opacity-80"
+              class="uppercase text-sm font-bold tracking-wide bg-[#457B9D] text-white p-3 rounded-lg w-full focus:outline-none focus:shadow-outline hover:opacity-80"
             >
               Reach Out
             </button>
