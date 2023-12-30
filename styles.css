@@ -73,8 +73,21 @@ margin: 10px;
 }
 @media screen and (max-width :300px){
     ul{
-        color: black;
+        color: white;
+ 
         
+    }
+    #navbar-dropdown{
+        position:relative;
+        background-color:#172a46 ;
+        margin: 0;
+
+    }
+    li{
+        background-color: none;
+    }
+    .results{
+        width: 100%;
     }
 }
 
