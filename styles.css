@@ -75,6 +75,15 @@ margin: 10px;
     ul{
         color: white;  
     }
+    .mine{
+        width: 4px;
+        height: 4px;
+    }
+    .time{
+        display: flex;
+        flex-direction: row;
+        width:1px;
+    }
     #testimonials{
         display: none;
     }
