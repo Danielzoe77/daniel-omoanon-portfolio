@@ -73,10 +73,12 @@ margin: 10px;
 }
 @media screen and (max-width :500px){
     ul{
-        color: white;
- 
-        
+        color: white;  
     }
+    #testimonials{
+        display: none;
+    }
+  
     #navbar-dropdown{
         position:relative;
         background-color:#172a46 ;
